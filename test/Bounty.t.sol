@@ -15,7 +15,7 @@ contract BountyTest is Test {
     address constant easAddress = 0x4200000000000000000000000000000000000020;
     MockUSD public mockUSD;
 
-    bytes32 attest_uid = bytes32(0x3382c5d552720f468e140c92f026ebc1ea6c59e1e3e284c717c3944694c2466a);
+    bytes32 attest_uid = bytes32(0xba1ff792766ef4a0ddec97a3297a85165c4dafeb65135d18f33364563b66f285);
 
 
     address hunter1;
