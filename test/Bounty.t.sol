@@ -23,7 +23,6 @@ contract BountyTest is Test {
     function setUp() public {
         bounty = new Bounty();
         hunter1 = makeAddr("hunter1");
-        // TODO deploy mock eas
         eas = IEAS(address(easAddress));
         mockUSD = new MockUSD(1_000_000 * 10 ** 18);
     }
